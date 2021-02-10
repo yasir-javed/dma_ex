@@ -1,0 +1,50 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 6.8.11  2018-08-07 bk=1.4403 VDI=40 GEI=35 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -y -220 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -y -200 -defaultsOSRD
+preplace inst axi_dma_0 -pg 1 -lvl 2 -y -190 -defaultsOSRD
+preplace inst AXI_CTRL_STATUS_0 -pg 1 -lvl 4 -y -730 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 1 -y -910 -defaultsOSRD
+preplace inst axi_smc -pg 1 -lvl 6 -y -450 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 2 -y 40 -defaultsOSRD
+preplace inst util_vector_logic_0 -pg 1 -lvl 1 -y -650 -defaultsOSRD
+preplace inst rate_control_0 -pg 1 -lvl 2 -y -660 -defaultsOSRD
+preplace inst ila_0 -pg 1 -lvl 3 -y -550 -defaultsOSRD
+preplace inst ps7_0_axi_periph -pg 1 -lvl 6 -y -80 -defaultsOSRD
+preplace inst rst_ps7_0_100M -pg 1 -lvl 5 -y -20 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 4 -y -130 -defaultsOSRD
+preplace netloc processing_system7_0_DDR 1 4 3 NJ -220 N -220 N
+preplace netloc AXI_CTRL_STATUS_0_control_1 1 3 2 1050 -600 1550
+preplace netloc axi_dma_0_m_axis_mm2s_tkeep 1 1 2 250 -440 780
+preplace netloc AXI_CTRL_STATUS_0_control_2 1 3 2 1060 -590 1540
+preplace netloc AXI_CTRL_STATUS_0_control_3 1 3 2 1070 -580 1530
+preplace netloc processing_system7_0_M_AXI_GP0 1 4 2 NJ -140 1910
+preplace netloc rst_ps7_0_100M_peripheral_aresetn 1 0 6 -120 -430 190J -430 NJ -430 1030J -400 NJ -400 1940
+preplace netloc axi_dma_0_m_axis_mm2s_tdata 1 1 2 270 -420 750
+preplace netloc axi_smc_M00_AXI 1 3 4 1070J -350 NJ -350 NJ -350 2240
+preplace netloc util_vector_logic_0_Res 1 1 1 180
+preplace netloc rate_control_0_valid_out 1 1 2 220 -450 710
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 4 1 N
+preplace netloc axi_dma_0_M_AXI_SG 1 2 4 760J -420 NJ -420 NJ -420 1900
+preplace netloc axi_dma_0_m_axis_mm2s_tvalid 1 1 2 220 -550 790
+preplace netloc ps7_0_axi_periph_M01_AXI 1 3 4 1040 -340 NJ -340 NJ -340 2250
+preplace netloc axi_dma_0_s_axis_s2mm_tready 1 1 1 210
+preplace netloc axi_dma_0_s2mm_introut 1 1 2 240 -380 720
+preplace netloc axi_dma_0_M_AXI_MM2S 1 2 4 810 -330 NJ -330 NJ -330 1910J
+preplace netloc xlconstant_0_dout 1 1 1 190
+preplace netloc xlconcat_0_dout 1 2 2 N 40 1040
+preplace netloc processing_system7_0_FIXED_IO 1 4 3 1560J -230 N -230 2260
+preplace netloc axi_dma_0_mm2s_introut 1 1 2 230 -400 730
+preplace netloc axi_dma_0_M_AXI_S2MM 1 2 4 800 -410 NJ -410 NJ -410 1920J
+preplace netloc axi_dma_0_m_axis_mm2s_tlast 1 1 2 260 -410 770
+preplace netloc processing_system7_0_FCLK_CLK0 1 1 5 200 -770 790 -660 1010 -280 1540 -240 1930
+preplace netloc Net 1 2 1 740
+preplace netloc ps7_0_axi_periph_M00_AXI 1 1 6 280J -390 NJ -390 NJ -390 NJ -390 1920J -330 2240
+preplace netloc axi_dma_0_M_AXIS_MM2S 1 1 2 290 -370 710
+preplace netloc AXI_CTRL_STATUS_0_control_0 1 1 4 210 -780 N -780 1020 -610 1560
+levelinfo -pg 1 -140 30 500 920 1300 1730 2090 2280 -top -1040 -bot 1000
+"
+}
+
